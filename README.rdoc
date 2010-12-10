@@ -1,6 +1,26 @@
 = angry-pickle
 
-Description goes here.
+This gem provides Growl integration for Cucumber. Inspired by the (abandoned) CucumberGrowler project @ https://github.com/paolodona/cucumber_growler
+
+== Installation
+
+In your Gemfile:
+
+  group :development, :test do
+    gem 'angry-pickle'
+  end
+  
+Then
+
+  bundle install
+  
+== Usage 
+
+From console, just invoke cucumber with the pretty format option as usual:
+
+  cucumber features/ -f pretty
+
+That's it.
 
 == Note on Patches/Pull Requests
  
@@ -10,8 +30,8 @@ Description goes here.
   future version unintentionally.
 * Commit, do not mess with rakefile, version, or history.
   (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
-* Send me a pull request. Bonus points for topic branches.
+* Send me a pull request.
 
 == Copyright
 
-Copyright (c) 2010 Bantik. See LICENSE for details.
+Copyright (c) 2010 Corey Ehmke / SEO Logic. See LICENSE for details.
