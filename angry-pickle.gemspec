@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Bantik"]
-  s.date = %q{2010-12-10}
+  s.date = %q{2010-12-13}
   s.description = %q{Growl integration with Cucumber's pretty-print output.}
   s.email = %q{corey@seologic.com}
   s.extra_rdoc_files = [
@@ -22,6 +22,10 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "angry-pickle.gemspec",
+    "images/failed.png",
+    "images/passed.png",
+    "images/pending.png",
     "lib/angry-pickle.rb",
     "test/helper.rb",
     "test/test_angry-pickle.rb"
